@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class AutosuggestiveDropdown extends BeforeTestExecution{
 
 	@Override
-	@Test
+	@Test(priority=3)
 	public void test() throws Exception {
 		driver.findElement(By.id("autosuggest")).sendKeys("New");
 		List<WebElement> options = driver.findElements(By.xpath("//ul[@id='ui-id-1']/li"));

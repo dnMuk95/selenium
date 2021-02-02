@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Selenium_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Suite" title="selenium.dropdowns.AutosuggestiveDropdown" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Suite" title="selenium.dropdowns.DynamicDropdown" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Suite" title="selenium.dropdowns.DynamicDropdown" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Suite" title="selenium.dropdowns.AutosuggestiveDropdown" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -184,7 +184,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Selenium Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Dropdown Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Dropdown Test&quot; group-by-instances=&quot;true&quot;&gt;
     &lt;packages&gt;
       &lt;package name=&quot;selenium.dropdowns&quot;/&gt;
     &lt;/packages&gt;
@@ -235,21 +235,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'selenium.dropdowns.DynamicDropdown')
-data.setCell(0, 3, 3999);
+data.setCell(0, 2, 'selenium.dropdowns.StaticDropdown')
+data.setCell(0, 3, 3667);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test')
-data.setCell(1, 2, 'selenium.dropdowns.StaticDropdown')
-data.setCell(1, 3, 3376);
+data.setCell(1, 2, 'selenium.dropdowns.DynamicDropdown')
+data.setCell(1, 3, 1685);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test')
 data.setCell(2, 2, 'selenium.dropdowns.AutosuggestiveDropdown')
-data.setCell(2, 3, 2137);
+data.setCell(2, 3, 1232);
 window.suiteTableData['Selenium_Suite']= { tableData: data, tableDiv: 'times-div-Selenium_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Selenium_Suite">
               </div> <!-- times-div-Selenium_Suite -->
             </div> <!-- times-div -->
@@ -300,28 +300,28 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">22391 ms</span>
+                <span class="method-start">12646 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">selenium.dropdowns.DynamicDropdown</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">24540 ms</span>
+                <span class="method-start">13892 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">selenium.dropdowns.StaticDropdown</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">28541 ms</span>
+                <span class="method-start">15581 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">selenium.dropdowns.AutosuggestiveDropdown</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDropdown</span>
-                <span class="method-start">31918 ms</span>
+                <span class="method-start">19249 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -19,6 +19,7 @@ public abstract class BeforeTestExecution {
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		String title = "QAClickJet - Flight Booking for Domestic and International, Cheap Air Tickets";
 		Assert.assertEquals(title, driver.getTitle());
 	}

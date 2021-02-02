@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class StaticDropdown extends BeforeTestExecution{
-	@Test
+	@Test(priority=1)
 	@Override
 	public void test() throws Exception
 	{

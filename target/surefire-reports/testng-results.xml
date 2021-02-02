@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium Suite" duration-ms="32138" started-at="2021-02-02T14:54:39 IST" finished-at="2021-02-02T14:55:11 IST">
+  <suite name="Selenium Suite" duration-ms="19484" started-at="2021-02-02T20:53:58 IST" finished-at="2021-02-02T20:54:18 IST">
     <groups>
     </groups>
-    <test name="Dropdown Test" duration-ms="32138" started-at="2021-02-02T14:54:39 IST" finished-at="2021-02-02T14:55:11 IST">
+    <test name="Dropdown Test" duration-ms="19484" started-at="2021-02-02T20:53:58 IST" finished-at="2021-02-02T20:54:18 IST">
       <class name="selenium.dropdowns.DynamicDropdown">
-        <test-method status="PASS" signature="test()[pri:0, instance:selenium.dropdowns.DynamicDropdown@4e1d422d]" name="test" duration-ms="3999" started-at="2021-02-02T14:55:03 IST" finished-at="2021-02-02T14:55:07 IST">
+        <test-method status="PASS" signature="test()[pri:2, instance:selenium.dropdowns.DynamicDropdown@4e1d422d]" name="test" duration-ms="1685" started-at="2021-02-02T20:54:12 IST" finished-at="2021-02-02T20:54:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- selenium.dropdowns.DynamicDropdown -->
       <class name="selenium.dropdowns.AutosuggestiveDropdown">
-        <test-method status="PASS" signature="setupDropdown()[pri:0, instance:selenium.dropdowns.AutosuggestiveDropdown@3327bd23]" name="setupDropdown" is-config="true" duration-ms="22096" started-at="2021-02-02T14:54:39 IST" finished-at="2021-02-02T14:55:01 IST">
+        <test-method status="PASS" signature="setupDropdown()[pri:0, instance:selenium.dropdowns.AutosuggestiveDropdown@3327bd23]" name="setupDropdown" is-config="true" duration-ms="12349" started-at="2021-02-02T20:53:58 IST" finished-at="2021-02-02T20:54:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDropdown -->
-        <test-method status="PASS" signature="test()[pri:0, instance:selenium.dropdowns.AutosuggestiveDropdown@3327bd23]" name="test" duration-ms="2137" started-at="2021-02-02T14:55:01 IST" finished-at="2021-02-02T14:55:03 IST">
+        <test-method status="PASS" signature="test()[pri:3, instance:selenium.dropdowns.AutosuggestiveDropdown@3327bd23]" name="test" duration-ms="1232" started-at="2021-02-02T20:54:11 IST" finished-at="2021-02-02T20:54:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="shutDropdown()[pri:0, instance:selenium.dropdowns.AutosuggestiveDropdown@3327bd23]" name="shutDropdown" is-config="true" duration-ms="206" started-at="2021-02-02T14:55:11 IST" finished-at="2021-02-02T14:55:11 IST">
+        <test-method status="PASS" signature="shutDropdown()[pri:0, instance:selenium.dropdowns.AutosuggestiveDropdown@3327bd23]" name="shutDropdown" is-config="true" duration-ms="221" started-at="2021-02-02T20:54:17 IST" finished-at="2021-02-02T20:54:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDropdown -->
       </class> <!-- selenium.dropdowns.AutosuggestiveDropdown -->
       <class name="selenium.dropdowns.StaticDropdown">
-        <test-method status="PASS" signature="test()[pri:0, instance:selenium.dropdowns.StaticDropdown@66480dd7]" name="test" duration-ms="3376" started-at="2021-02-02T14:55:07 IST" finished-at="2021-02-02T14:55:11 IST">
+        <test-method status="PASS" signature="test()[pri:1, instance:selenium.dropdowns.StaticDropdown@66480dd7]" name="test" duration-ms="3667" started-at="2021-02-02T20:54:14 IST" finished-at="2021-02-02T20:54:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
