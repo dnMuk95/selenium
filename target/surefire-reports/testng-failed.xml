@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Selenium Suite]">
   <test thread-count="5" verbose="0" name="Dropdown Test(failed)">
     <classes>
-      <class name="selenium.dropdowns.StaticDropdown">
+      <class name="selenium.dropdowns.DynamicDropdown">
         <methods>
           <include name="test"/>
           <include name="shutDropdown"/>
           <include name="setupDropdown"/>
         </methods>
-      </class> <!-- selenium.dropdowns.StaticDropdown -->
+      </class> <!-- selenium.dropdowns.DynamicDropdown -->
     </classes>
   </test> <!-- Dropdown Test(failed) -->
 </suite> <!-- Failed suite [Selenium Suite] -->

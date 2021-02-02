@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Selenium_Suite" title="selenium.dropdowns.StaticDropdown" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Suite" title="selenium.dropdowns.DynamicDropdown" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Selenium_Suite -->
@@ -123,6 +128,21 @@
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">selenium.dropdowns.StaticDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Suite-class-passed -->
+          <div class="suite-Selenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.dropdowns.DynamicDropdown</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -192,16 +212,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'selenium.dropdowns.StaticDropdown')
-data.setCell(0, 3, 3300);
+data.setCell(0, 2, 'selenium.dropdowns.DynamicDropdown')
+data.setCell(0, 3, 4004);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'selenium.dropdowns.StaticDropdown')
+data.setCell(1, 3, 3501);
 window.suiteTableData['Selenium_Suite']= { tableData: data, tableDiv: 'times-div-Selenium_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Selenium_Suite">
               </div> <!-- times-div-Selenium_Suite -->
             </div> <!-- times-div -->
@@ -216,9 +240,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Selenium_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">selenium.dropdowns.StaticDropdown</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shutDropdown</span>
+                <br/>
+                <span class="ignored-method-name">setupDropdown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Selenium_Suite" class="panel">
@@ -227,18 +260,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">selenium.dropdowns.StaticDropdown</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">selenium.dropdowns.DynamicDropdown</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setupDropdown</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">14260 ms</span>
+                <span class="method-start">13747 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.dropdowns.StaticDropdown</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">17762 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.dropdowns.DynamicDropdown</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDropdown</span>
-                <span class="method-start">17571 ms</span>
+                <span class="method-start">21263 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
