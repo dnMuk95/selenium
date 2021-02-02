@@ -143,16 +143,12 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Selenium Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Dropdown Test&quot;&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;selenium.dropdowns&quot;/&gt;
-    &lt;/packages&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Selenium Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dropdown Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;selenium.dropdowns.AutosuggestiveDropdown&quot;/&gt;
-      &lt;class name=&quot;selenium.dropdowns.BeforeTestExecution&quot;/&gt;
-      &lt;class name=&quot;selenium.dropdowns.DynamicDropdown&quot;/&gt;
       &lt;class name=&quot;selenium.dropdowns.StaticDropdown&quot;/&gt;
+      &lt;class name=&quot;selenium.dropdowns.DynamicDropdown&quot;/&gt;
+      &lt;class name=&quot;selenium.dropdowns.AutosuggestiveDropdown&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Dropdown Test --&gt;
 &lt;/suite&gt; &lt;!-- Selenium Suite --&gt;
@@ -166,7 +162,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Dropdown Test (4 classes)</span>
+                <span class="test-name">Dropdown Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
 data.setCell(0, 2, 'selenium.dropdowns.StaticDropdown')
-data.setCell(0, 3, 3300);
+data.setCell(0, 3, 27);
 window.suiteTableData['Selenium_Suite']= { tableData: data, tableDiv: 'times-div-Selenium_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 27 ms</span>
               <div id="times-div-Selenium_Suite">
               </div> <!-- times-div-Selenium_Suite -->
             </div> <!-- times-div -->
@@ -228,18 +224,10 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">selenium.dropdowns.StaticDropdown</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setupDropdown</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">test</span>
-                <span class="method-start">14260 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">shutDropdown</span>
-                <span class="method-start">17571 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
